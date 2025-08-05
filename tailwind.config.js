@@ -11,7 +11,12 @@ module.exports = {
         sm: '1rem',
       },
     },
+
     extend: {
+      fontFamily: {
+        sans: ['DM Sans', 'system-ui', 'sans-serif'],
+        serif: ['DM Serif Text', 'Georgia', 'serif'],
+      },
       keyframes: {
         slideIn: {
           '0%': {
@@ -20,17 +25,15 @@ module.exports = {
           },
           '100%': {
             opacity: 1,
-            transform: 'translateX(0px)',
+            transform: 'translateX(0)',
           },
         },
         fadeIn: {
           '0%': {
             opacity: 0,
-            transform: 'translateX(-20px)',
           },
           '100%': {
             opacity: 1,
-            transform: 'translateX(0px)',
           },
         },
       },
@@ -62,6 +65,7 @@ module.exports = {
         }
         return delays;
       }
+
       addUtilities(animationDelay());
     }),
   ],
