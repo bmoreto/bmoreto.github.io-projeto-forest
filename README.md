@@ -33,7 +33,7 @@ During the course, I deepened my understanding of:
 
 ## 💼 Portfolio
 
-🧑‍💻 [Check out my full portfolio](https://github.com/bmoreto/bmoreto.github.io-projeto-forest)
+🧑‍💻 [Check out my full portfolio](https://bmoreto.github.io/bmoreto.github.io-portifolio/)
 
 ## 🏫 Course
 
